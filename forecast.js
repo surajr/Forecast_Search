@@ -499,27 +499,27 @@ json_data.hourly.data[i].windSpeed = isNaN(json_data.hourly.data[i].windSpeed)?'
         {
 			var icon;
             if(current_icon_name=="clear-day")
-                icon="http://cs-server.usc.edu:45678/hw/hw8/images/clear.png";
+                icon="images/clear.png";
             else if(current_icon_name=="clear-night")
-                icon="http://cs-server.usc.edu:45678/hw/hw8/images/clear_night.png";    
+                icon="images/clear_night.png";    
             else if(current_icon_name=="clear-day")
-                icon="http://cs-server.usc.edu:45678/hw/hw8/images/clear.png";
+                icon="images/clear.png";
             else if(current_icon_name=="rain")
-                icon="http://cs-server.usc.edu:45678/hw/hw8/images/rain.png";
+                icon="images/rain.png";
             else if(current_icon_name=="snow")
-                icon="http://cs-server.usc.edu:45678/hw/hw8/images/snow.png";
+                icon="images/snow.png";
             else if(current_icon_name=="sleet")
-                icon="http://cs-server.usc.edu:45678/hw/hw8/images/sleet.png";
+                icon="images/sleet.png";
             else if(current_icon_name=="wind")
-                icon="http://cs-server.usc.edu:45678/hw/hw8/images/wind.png";  
+                icon="images/wind.png";  
             else if(current_icon_name=="fog")
-                icon="http://cs-server.usc.edu:45678/hw/hw8/images/fog.png";
+                icon="images/fog.png";
             else if(current_icon_name=="partly-cloudy-day")
-                icon="http://cs-server.usc.edu:45678/hw/hw8/images/cloud_day.png";
+                icon="images/cloud_day.png";
             else if (current_icon_name=="partly-cloudy-night")
-                icon="http://cs-server.usc.edu:45678/hw/hw8/images/cloud_night.png"; 
+                icon="images/cloud_night.png"; 
             else 
-                icon="http://cs-server.usc.edu:45678/hw/hw8/images/cloudy.png";
+                icon="images/cloudy.png";
             
             return icon;
 		  }
